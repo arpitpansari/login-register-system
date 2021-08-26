@@ -1,8 +1,4 @@
 #include<bits/stdc++.h>
-#include <fstream>
-#include <iostream>
-#include <cmath>
-#include <cstdlib>
 using namespace std;
 bool isloggedin( ) {
 	string username, password;
@@ -22,11 +18,6 @@ bool isloggedin( ) {
 }
 int32_t main()
  {
-    	//~ iostream::sync_with_stdio(false);
-    	//~ cin.tie(0);
-    	//~ #ifndef ONLINE_JUDGE
-    	//~ freopen("input.txt", "r", stdin);
-    	//~ #endif
 	cout << "1.Register \n2.Login \nYour Choice\n";
 	int choice; cin >> choice;
 
